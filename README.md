@@ -32,10 +32,7 @@
   - [📚 API Documentation](#-api-documentation)
   - [🌍 Multi-Language Support](#-multi-language-support)
   - [📁 File Structure](#-file-structure)
-  - [🧪 Testing](#-testing)
-  - [🤝 Contributing](#-contributing)
-  - [📄 License](#-license)
-  - [💬 Support](#-support)
+
 
 ## 🚀 About
 
@@ -286,45 +283,5 @@ Translation files are located in `resources/lang/` and the application automatic
 │   └── web.php            # Web routes
 └── public/assets/         # Frontend assets
 ```
-
-## 🧪 Testing
-
-Run the test suite:
-
-```bash
-# Run all tests
-php artisan test
-
-# Run specific test types
-php artisan test --testsuite=Feature
-php artisan test --testsuite=Unit
-
-# Run with coverage
-php artisan test --coverage
-```
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-Please ensure your code follows PSR-12 coding standards and includes appropriate tests.
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 💬 Support
-
-For support and questions:
-
-- **Documentation**: Check this README and Laravel documentation
-- **Issues**: Open an issue on GitHub
-- **Email**: your-email@example.com
-
----
 
 **Built with ❤️ using Laravel**
